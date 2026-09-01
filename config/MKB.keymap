@@ -28,7 +28,7 @@
             label = "Def";
             bindings = <
 &kp ESCAPE        &kp Q     &kp W      &kp E     &kp R           &kp T               &kp Y           &kp U           &kp I      &kp O      &kp P      &kp BACKSPACE
-&lt BT TAB        &kp A     &kp S      &kp D     &kp F           &kp G               &kp H           &kp J           &kp K      &kp L      &kp SEMI   &kp ENTER
+&lt BT TAB        &kp A     &kp S      &kp D     &kp F           &kp G               &kp H           &kp J           &kp K      &kp L      &kp MINUS  &kp ENTER
 &kp LSHFT         &kp Z     &kp X      &kp C     &kp V           &kp B               &kp N           &kp M           &kp COMMA  &kp DOT    &kp UP     &kp FSLH
 &kp LEFT_CONTROL  &kp LGUI  &kp LALT             &lt NUM SPACE   &lt FUNC SPACE      &lt FUNC SPACE  &lt NUM K_MENU             &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LANG2         &kp UP    &kp SPACE  &kp DOWN  &kp LANGUAGE_1                                      &kp HOME        &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
