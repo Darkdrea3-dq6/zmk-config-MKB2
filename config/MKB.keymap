@@ -27,12 +27,12 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp ESCAPE        &kp Q     &kp W      &kp E     &kp R           &kp T               &kp Y           &kp U          &kp I      &kp O      &kp P      &kp BACKSPACE
-&lt BT TAB        &kp A     &kp S      &kp D     &kp F           &kp G               &kp H           &kp J          &kp K      &kp L      &kp MINUS  &kp ENTER
-&kp LSHFT         &kp Z     &kp X      &kp C     &kp V           &kp B               &kp N           &kp M          &kp COMMA  &kp DOT    &kp UP     &kp FSLH
-&kp LEFT_CONTROL  &kp LGUI  &kp LALT             &lt NUM SPACE   &lt FUNC SPACE      &lt FUNC SPACE  &lt NUM K_APP             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LANG2         &kp UP    &kp SPACE  &kp DOWN  &kp LANGUAGE_1                                      &kp HOME       &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                       &kp A                                                                        &kp B
+&kp ESCAPE        &kp Q      &kp W      &kp E     &kp R           &kp T               &kp Y           &kp U          &kp I      &kp O      &kp P      &kp BACKSPACE
+&lt BT TAB        &kp A      &kp S      &kp D     &kp F           &kp G               &kp H           &kp J          &kp K      &kp L      &kp MINUS  &kp ENTER
+&kp LSHFT         &kp Z      &kp X      &kp C     &kp V           &kp B               &kp N           &kp M          &kp COMMA  &kp DOT    &kp UP     &kp FSLH
+&kp LEFT_CONTROL  &kp LGUI   &kp LALT             &lt NUM SPACE   &lt FUNC SPACE      &lt FUNC SPACE  &lt NUM K_APP             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LANG2         &kp LANG1  &kp SPACE  &kp DOWN  &kp LANGUAGE_1                                      &kp HOME       &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                        &kp A                                                                        &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -97,11 +97,11 @@
         bt_layer {
             label = "BT";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR_ALL  &trans    &trans     &trans     &trans     &trans
-&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
-&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
-&trans      &trans        &trans                      &trans        &trans            &trans          &trans               &trans     &trans     &trans
-&kp LEFT    &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                       &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR_ALL  &trans    &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
+&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
+&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
+&trans      &trans        &trans                      &trans        &trans            &trans          &trans               &kp KP_NUMBER_0  &kp PERIOD       &kp ENTER
+&kp LEFT    &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                       &kp HOME  &kp PG_UP  &kp ENTER        &kp PG_DN        &kp END
                                         &kp A                                                                   &kp B
             >;
 
