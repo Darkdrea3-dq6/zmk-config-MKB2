@@ -27,12 +27,12 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp ESCAPE        &kp Q     &kp W      &kp E     &kp R           &kp T               &kp Y           &kp U           &kp I      &kp O      &kp P      &kp BACKSPACE
-&lt BT TAB        &kp A     &kp S      &kp D     &kp F           &kp G               &kp H           &kp J           &kp K      &kp L      &kp MINUS  &kp ENTER
-&kp LSHFT         &kp Z     &kp X      &kp C     &kp V           &kp B               &kp N           &kp M           &kp COMMA  &kp DOT    &kp UP     &kp FSLH
-&kp LEFT_CONTROL  &kp LGUI  &kp LALT             &lt NUM SPACE   &lt FUNC SPACE      &lt FUNC SPACE  &lt NUM K_MENU             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LANG2         &kp UP    &kp SPACE  &kp DOWN  &kp LANGUAGE_1                                      &kp HOME        &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                       &kp A                                                                         &kp B
+&kp ESCAPE        &kp Q     &kp W      &kp E     &kp R           &kp T               &kp Y           &kp U          &kp I      &kp O      &kp P      &kp BACKSPACE
+&lt BT TAB        &kp A     &kp S      &kp D     &kp F           &kp G               &kp H           &kp J          &kp K      &kp L      &kp MINUS  &kp ENTER
+&kp LSHFT         &kp Z     &kp X      &kp C     &kp V           &kp B               &kp N           &kp M          &kp COMMA  &kp DOT    &kp UP     &kp FSLH
+&kp LEFT_CONTROL  &kp LGUI  &kp LALT             &lt NUM SPACE   &lt FUNC SPACE      &lt FUNC SPACE  &lt NUM K_APP             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LANG2         &kp UP    &kp SPACE  &kp DOWN  &kp LANGUAGE_1                                      &kp HOME       &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                       &kp A                                                                        &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -41,12 +41,12 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&kp GRAVE  &kp F1    &kp F2     &kp F3     &kp F4     &kp F5         &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &kp DELETE
-&tog_ls    &kp AT    &kp DOWN   &kp RIGHT  &kp END    &trans         &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &trans
-&trans     &kp BKSP  &kp DEL    &trans     &trans     &trans         &kp F11    &kp F12    &trans     &trans     &trans     &trans
-&trans     &trans    &kp LALT              &kp ENTER  &kp ENTER      &kp ENTER  &kp ENTER             &trans     &trans     &trans
-&kp LEFT   &kp UP    &kp SPACE  &kp DOWN   &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                &kp A                                                      &kp B
+&kp GRAVE  &kp F1            &kp F2     &kp F3     &kp F4     &kp F5         &kp F6             &kp F7         &kp F8            &kp F9     &kp F10         &kp DEL
+&tog_ls    &kp LEFT_BRACKET  &kp EXCL   &kp RIGHT  &kp END    &trans         &kp RIGHT_BRACKET  &kp BACKSLASH  &kp SINGLE_QUOTE  &kp F9     &kp UNDERSCORE  &trans
+&trans     &kp BKSP          &kp DEL    &trans     &trans     &trans         &kp F11            &kp F12        &trans            &trans     &trans          &trans
+&kp LCTRL  &trans            &kp LALT              &kp ENTER  &kp ENTER      &kp ENTER          &kp ENTER                        &trans     &trans          &trans
+&kp LEFT   &kp UP            &kp SPACE  &kp DOWN   &kp RIGHT                                    &kp HOME       &kp PG_UP         &kp ENTER  &kp PG_DN       &kp END
+                                        &kp A                                                                  &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -55,9 +55,9 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp LANGUAGE_1   &kp N1         &kp N2     &kp N3    &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans
+&kp LANGUAGE_1   &kp N1         &kp N2     &kp N3    &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp DEL
 &trans           &trans         &trans     &trans    &trans     &kp PLUS       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &trans
-&mt LSHFT SPACE  &kp BACKSPACE  &kp DEL    &trans    &trans     &trans         &trans     &kp FSLH   &kp SEMI   &kp SQT    &trans     &trans
+&mt LSHFT SPACE  &kp BACKSPACE  &kp DEL    &trans    &trans     &kp SQT        &trans     &kp FSLH   &kp SEMI   &kp SQT    &trans     &kp INT1
 &trans           &kp ENTER      &kp ENTER            &kp ENTER  &kp ENTER      &kp ENTER  &kp ENTER             &trans     &trans     &trans
 &kp LEFT         &kp UP         &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                            &kp A                                                     &kp B
