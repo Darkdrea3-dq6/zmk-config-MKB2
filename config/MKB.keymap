@@ -56,7 +56,7 @@
             label = "Num";
             bindings = <
 &kp LANGUAGE_1   &kp N1         &kp N2     &kp N3    &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans
-&trans           &trans         &trans     &trans    &trans     &trans         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &trans
+&trans           &trans         &trans     &trans    &trans     &kp PLUS       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &trans
 &mt LSHFT SPACE  &kp BACKSPACE  &kp DEL    &trans    &trans     &trans         &trans     &kp FSLH   &kp SEMI   &kp SQT    &trans     &trans
 &trans           &kp ENTER      &kp ENTER            &kp ENTER  &kp ENTER      &kp ENTER  &kp ENTER             &trans     &trans     &trans
 &kp LEFT         &kp UP         &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
