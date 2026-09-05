@@ -108,4 +108,10 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
+
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&vtrackball>;
+        input-processors = <&zip_temp_layer 3 1000>;
+    };
 };
