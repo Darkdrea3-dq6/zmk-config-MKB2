@@ -557,7 +557,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-13 " transform="translate(82 116) rotate(0 -52 -52)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">AT</text>
+<text class="tap" x="26" y="26">LEFT_BRACKET</text>
 </g>
 <g class="key keypos-14 " transform="translate(134 116) rotate(0 -104 -52)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
@@ -601,8 +601,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-24 " transform="translate(30 168) rotate(0 0 -104)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="20">SPC</text>
-<text class="hold" x="26" y="37">LSHFT</text>
+<text class="tap" x="26" y="26">LSHFT</text>
 </g>
 <g class="key keypos-25 " transform="translate(82 168) rotate(0 -52 -104)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
